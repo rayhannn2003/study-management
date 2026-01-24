@@ -1,4 +1,5 @@
 #EXTM3U
-#EXT-X-MAP:URI="/"
+#EXT-X-VERSION:3
+
 #EXTINF:10,
-https://test-streams.mux.dev/x36xhzz/url_0/193039199_mp4_h264_aac_hd_7.m3u8
+https://raw.githubusercontent.com/rayhannn2003/study-management/main/inner.m3u8
