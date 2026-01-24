@@ -1,3 +1,4 @@
 #EXTM3U
+#EXT-X-MAP:URI="/"
 #EXTINF:10,
-http://httpbin.org/redirect-to?url=http://google.com@127.0.0.1:7777/
+https://test-streams.mux.dev/x36xhzz/url_0/193039199_mp4_h264_aac_hd_7.m3u8
