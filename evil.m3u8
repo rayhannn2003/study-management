@@ -3,7 +3,5 @@
 #EXT-X-TARGETDURATION:10
 #EXT-X-MEDIA-SEQUENCE:0
 
-#EXT-X-KEY:METHOD=AES-128,URI="http://127.0.0.1:7777/"
-
 #EXTINF:10,
-https://test-streams.mux.dev/x36xhzz/url_0/193039199_mp4_h264_aac_hd_7.m3u8
+http://httpbin.org/redirect-to?url=http://127.0.0.1:7777/
