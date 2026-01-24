@@ -1,9 +1,7 @@
 #EXTM3U
 #EXT-X-VERSION:3
+#EXT-X-VERSION:buetctf{test}
 #EXT-X-TARGETDURATION:10
-#EXT-X-MEDIA-SEQUENCE:0
-
-#EXT-X-KEY:METHOD=AES-128,URI="buetctf{test}"
 
 #EXTINF:10,
 https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
