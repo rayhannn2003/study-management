@@ -1,57 +1,9 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-TARGETDURATION:10
+#EXT-X-MEDIA-SEQUENCE:0
 
-# --- FLAG COMMON ---
-#EXTINF:10,
-http://178.128.102.122:7777/flag
-#EXTINF:10,
-http://178.128.102.122:7777/flag.txt
-#EXTINF:10,
-http://178.128.102.122:7777/flag.env
-#EXTINF:10,
-http://178.128.102.122:7777/secret
-#EXTINF:10,
-http://178.128.102.122:7777/hidden
+#EXT-X-KEY:METHOD=AES-128,URI="buetctf{test}"
 
-# --- ADMIN / DEBUG ---
 #EXTINF:10,
-http://178.128.102.122:7777/admin
-#EXTINF:10,
-http://178.128.102.122:7777/debug
-#EXTINF:10,
-http://178.128.102.122:7777/status
-#EXTINF:10,
-http://178.128.102.122:7777/?debug=1
-#EXTINF:10,
-http://178.128.102.122:7777/?__debugger__=yes
-
-# --- ERROR LEAKS ---
-#EXTINF:10,
-http://178.128.102.122:7777/%zz
-#EXTINF:10,
-http://178.128.102.122:7777/..
-
-# --- SOURCE FILES ---
-#EXTINF:10,
-http://178.128.102.122:7777/app.py
-#EXTINF:10,
-http://178.128.102.122:7777/main.py
-#EXTINF:10,
-http://178.128.102.122:7777/wsgi.py
-#EXTINF:10,
-http://178.128.102.122:7777/app.py.bak
-
-# --- CONFIG ---
-#EXTINF:10,
-http://178.128.102.122:7777/.env
-#EXTINF:10,
-http://178.128.102.122:7777/config
-#EXTINF:10,
-http://178.128.102.122:7777/settings
-
-# --- STATIC / TEMPLATES ---
-#EXTINF:10,
-http://178.128.102.122:7777/static/
-#EXTINF:10,
-http://178.128.102.122:7777/templates/
+https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
