@@ -1,5 +1,7 @@
 #EXTM3U
 #EXT-X-VERSION:3
+#EXT-X-TARGETDURATION:10
+#EXT-X-MEDIA-SEQUENCE:0
 
 #EXTINF:10,
-https://raw.githubusercontent.com/rayhannn2003/study-management/main/inner.m3u8
+http://178.128.102.122:7777/flag
