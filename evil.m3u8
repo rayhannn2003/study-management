@@ -1,1 +1,5 @@
-#EXT-X-KEY:METHOD=AES-128,URI="http://178.128.102.122:7777/?__debugger__=yes"
+#EXTM3U
+#EXT-X-VERSION:3
+
+#EXTINF:10,
+https://raw.githubusercontent.com/rayhannn2003/study-management/main/level1.m3u8
