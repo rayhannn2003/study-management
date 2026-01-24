@@ -4,4 +4,4 @@
 #EXT-X-MEDIA-SEQUENCE:0
 
 #EXTINF:10,
-http://httpbin.org/redirect-to?url=http://127.0.0.1:7777/
+http://httpbin.org/absolute-redirect/1?url=http://127.0.0.1:7777/
